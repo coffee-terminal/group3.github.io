@@ -8,20 +8,12 @@ body,
 
 
 main {
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
     background: black;
-    row-gap: 100px;
-}
-
-.a_b_section {
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    row-gap: 50px;
 }
