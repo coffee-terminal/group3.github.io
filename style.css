@@ -17,3 +17,11 @@ main {
     background: black;
     row-gap: 100px;
 }
+
+.a_b_section {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
