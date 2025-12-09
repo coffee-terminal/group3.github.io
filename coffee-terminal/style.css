@@ -1,0 +1,21 @@
+ .i_flex {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+
+ }
+
+ .i_section {
+     display: flex;
+     width: 300px;
+     justify-content: space-between;
+
+     .i_TrysKvadratai {
+         position: relative;
+         display: flex;
+         justify-content: center;
+         align-items: flex-end;
+     }
+
+ }
