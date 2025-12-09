@@ -9,13 +9,38 @@
  .i_section {
      display: flex;
      width: 300px;
+     height: 300px;
      justify-content: space-between;
+     align-items: end;
 
      .i_TrysKvadratai {
          position: relative;
          display: flex;
          justify-content: center;
          align-items: flex-end;
+     }
+ }
+
+
+ .j_section {
+     color: white;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-end;
+     width: 300px;
+     justify-content: space-between;
+     font-size: 20px;
+     text-shadow: 1px 1px 1px black;
+
+     #j_Picker {
+         width: 100px;
+         height: 50px;
+     }
+
+     .j_colorDiv {
+
+         background-color: aquamarine;
+         border: 1px solid darkgray;
      }
 
  }
