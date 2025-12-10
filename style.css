@@ -4,8 +4,13 @@ body,
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
+body {
+    background: black;
+
+}
 
 main {
     padding: 50px;
@@ -13,6 +18,5 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: black;
     row-gap: 50px;
 }
