@@ -13,6 +13,7 @@ body {
 
 .bg {
     position: fixed;
+    height: 150vh;
     opacity: 0.1;
 }
 
@@ -31,9 +32,8 @@ main {
     max-width: 1000px;
     width: 100%;
     row-gap: 50px;
-
+    box-shadow: 0 0 10px rgb(211, 211, 211, 0.3);
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(253, 187, 45, 0) 100%);
-
 }
 
 
