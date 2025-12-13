@@ -3,24 +3,23 @@
 // Paspaudus ant konkretaus kvadrato, šalia esančiam dar viename bendrame div elemente turi atsirasti to kvadrato spalva (viso turi būti trys spalvos, nekintančios)
 
 const intoElement1 = document.querySelector('.i_TrysKvadratai div');
-intoElement1.style.width = 300 + 'px';
-intoElement1.style.height = 300 + 'px';
-intoElement1.style.backgroundColor = 'red';
+intoElement1.style.width = 100 + '%';
+
+intoElement1.style.backgroundColor = '#F7FFF7';
 
 const intoElement2 = document.querySelector('.i_TrysKvadratai div>div');
-intoElement2.style.width = 200 + 'px';
-intoElement2.style.height = 200 + 'px';
-intoElement2.style.backgroundColor = 'blue';
+intoElement2.style.width = 65 + '%';
+
+intoElement2.style.backgroundColor = '#1A535C';
 
 const intoElement3 = document.querySelector('.i_TrysKvadratai div>div>div');
-intoElement3.style.width = 100 + 'px';
-intoElement3.style.height = 100 + 'px';
-intoElement3.style.backgroundColor = 'orange';
+intoElement3.style.width = 50 + '%';
+
+intoElement3.style.backgroundColor = '#F5A65B';
 
 const iSpalva = document.querySelector('.i_Spalva');
-iSpalva.style.width = 100 + 'px';
-iSpalva.style.height = 100 + 'px';
-iSpalva.style.backgroundColor = 'gray';
+// iSpalva.style.width = 100 + 'px';
+iSpalva.style.backgroundColor = '#555555';
 
 intoElement1.addEventListener('click', (e) => {
     e.stopPropagation();
