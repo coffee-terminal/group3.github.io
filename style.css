@@ -22,6 +22,11 @@ body {
     color: white;
 }
 
+.f_skaicius,
+.e_suma {
+    color: white;
+}
+
 main {
     position: relative;
     padding: 20px;
