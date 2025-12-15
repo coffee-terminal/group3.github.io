@@ -17,7 +17,7 @@ sukeistasMygtukas2.addEventListener('click', swapButtonText);
 
 let sukeistasInput = document.querySelector('.d_Inputas');
 let sukeistasDivas = document.querySelector('#d_values');
-//.getElementById("values");
+
 
 function repeatInputText(e) {
     sukeistasDivas.textContent = e.target.value;
