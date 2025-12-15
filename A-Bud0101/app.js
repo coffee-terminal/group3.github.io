@@ -9,27 +9,27 @@ function rand(min, max) {
 
 
 
-const btnColor = document.querySelector('#btnColor');
+const a_btnColor = document.querySelector('#a_btnColor');
 
-btnColor.addEventListener('click', () => {
+a_btnColor.addEventListener('click', () => {
     const r = rand(0, 255);
     const g = rand(0, 255);
     const b = rand(0, 255);
 
     const randomColor = `rgb(${r}, ${g}, ${b})`;
 
-    btnColor.style.backgroundColor = randomColor;
+    a_btnColor.style.backgroundColor = randomColor;
 });
 
 
 
-const btnForm = document.querySelector('#btnForm');
+const b_btnForm = document.querySelector('#b_btnForm');
 
-btnForm.addEventListener('click', () => {
-    if (btnForm.style.borderRadius === '50%') {
-        btnForm.style.borderRadius = '0%'
+b_btnForm.addEventListener('click', () => {
+    if (b_btnForm.style.borderRadius === '50%') {
+        b_btnForm.style.borderRadius = '0%'
     } else {
-        btnForm.style.borderRadius = '50%';
+        b_btnForm.style.borderRadius = '50%';
     }
 
 
