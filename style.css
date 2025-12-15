@@ -1,6 +1,7 @@
 html,
 body,
 * {
+    font-size: 16px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,6 +28,43 @@ body {
 #d_values {
     color: white;
 }
+
+.e_suma {
+    padding-top: 10px;
+}
+
+
+.d_section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+
+
+    .d_Inputas {
+        width: 350px;
+
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1),
+            -5px -5px 15px rgba(255, 255, 255, 0.3);
+
+    }
+
+
+    #d_values {
+        width: 350px;
+
+        text-wrap: wrap;
+        display: block;
+        word-wrap: break-word;
+
+    }
+}
+
+input[type='range'] {
+    accent-color: gray;
+}
+
 
 main {
     position: relative;
