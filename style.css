@@ -23,7 +23,8 @@ body {
 }
 
 .f_skaicius,
-.e_suma {
+.e_suma,
+#d_values {
     color: white;
 }
 
