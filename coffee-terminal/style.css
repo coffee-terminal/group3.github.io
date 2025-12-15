@@ -17,6 +17,7 @@
      align-items: end;
 
      .i_TrysKvadratai {
+         cursor: pointer;
          position: relative;
          display: flex;
          width: 60%;
