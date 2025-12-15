@@ -1,37 +1,37 @@
 
 // e uzduotis
-const input1 = document.querySelector('.e_input1');
-const input2 = document.querySelector('.e_input2');
-const rezultatas = document.querySelector('.e_suma');
+const e_input1 = document.querySelector('.e_input1');
+const e_input2 = document.querySelector('.e_input2');
+const e_rezultatas = document.querySelector('.e_suma');
 
 const skaiciuoti = () => {
-    const a = Number(input1.value);
-    const b = Number(input2.value);
+    const a = Number(e_input1.value);
+    const b = Number(e_input2.value);
     if (isNaN(a) || isNaN(b)) {
-        rezultatas.innerText = 'Įveskite skaičių';
+        e_rezultatas.innerText = 'Įveskite skaičių';
     } else {
-        rezultatas.innerText = 'Atsakymas: ' + (a + b);
+        e_rezultatas.innerText = 'Atsakymas: ' + (a + b);
     }
 };
 
-input1.addEventListener('input', skaiciuoti);
-input2.addEventListener('input', skaiciuoti);
+e_input1.addEventListener('input', skaiciuoti);
+e_input2.addEventListener('input', skaiciuoti);
 
 
 
 // f uzduotis
 
-  const input = document.querySelector('.f_input');
-  const skaicius = document.querySelector('.f_skaicius');
+  const f_input = document.querySelector('.f_input');
+  const f_skaicius = document.querySelector('.f_skaicius');
 
-  input.min = 10;
-  input.max = 99;
-  input.step = 1;
+  f_input.min = 10;
+  f_input.max = 99;
+  f_input.step = 1;
 
   const fValue = () => {
-      skaicius.innerText = input.value;
+      f_skaicius.innerText = f_input.value;
   };
-  input.addEventListener('input', fValue);
+  f_input.addEventListener('input', fValue);
 
   fValue();
 
