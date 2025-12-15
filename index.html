@@ -5,46 +5,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <script src="./coffee-terminal/app.js" defer></script> -->
+
     <title>Group 3</title>
     <link rel="stylesheet" href="./coffee-terminal/style.css">
-    <!-- <link rel="stylesheet" href="./A-Bud0101/style.css">
     <link rel="stylesheet" href="./martynasbaras-rgb/style.css">
-    <link rel="stylesheet" href="./Tautvis-Dev/style.css">
-    <link rel="stylesheet" href="./pinepuff/style.css"> -->
+
+    <!-- <link rel="stylesheet" href="./Tautvis-Dev/style.css">
+    <link rel="stylesheet" href="./pinepuff/style.css">  -->
+
+
 </head>
 
 <body>
+    <img class="bg"
+        src="https://images.unsplash.com/photo-1454117096348-e4abbeba002c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="">
     <main>
-
-        <section class="a_section">
-            <button id="btnColor">Keisti spalvą</button>
-        </section>
-        <section class="b_section">
-            <button id="btnForm" style="padding: 50px;">Keisti formą</button>
-        </section>
+        <fieldset class="a_fieldset">
+            <legend>a</legend>
+            <section class="a_section">
+                <button id="a_btnColor">Keisti spalvą</button>
+            </section>
+        </fieldset>
+        <fieldset class="a_fieldset">
+            <legend>b</legend>
+            <section class="b_section">
+                <button id="b_btnForm" style="padding: 50px;">Keisti formą</button>
+            </section>
+        </fieldset>
 
         <script src="./A-Bud0101/app.js"></script>
         <!-- /////////////////////////////////////////////////////////////////////////// -->
-        <section class="i_section">
-            <div class="i_TrysKvadratai">
-                <div class="i_TrysKvadratai1 i_flex">
-                    <div class="i_TrysKvadratai2  i_flex">
-                        <div class="i_TrysKvadratai3  i_flex"></div>
+        <fieldset class="c_fieldset">
+            <legend>c</legend>
+            <section class="c_section">
+
+            </section>
+        </fieldset>
+        <fieldset class="d_fieldset">
+            <legend>d</legend>
+            <section class="d_section">
+
+            </section>
+        </fieldset>
+
+        <script src="./Pinepuff/app.js"></script>
+        <!-- /////////////////////////////////////////////////////////////////////////// -->
+        <fieldset class="e_fieldset">
+            <legend>e</legend>
+            <section class="e_section">
+                <input class="e_input1">
+                <input class="e_input2">
+                <div class="e_suma"></div>
+            </section>
+        </fieldset>
+        <fieldset class="f_fieldset">
+            <legend>f</legend>
+            <section class="f_section">
+                <input class="f_input" type="range">
+                <div class="f_skaicius"></div>
+            </section>
+        </fieldset>
+
+        <script src="./Tautvis-Dev/app.js"></script>
+        <!-- /////////////////////////////////////////////////////////////////////////// -->
+        <fieldset class="g_fieldset">
+            <legend>g</legend>
+            <section class="g_section">
+                <div id="square">Labas</div>
+                <input type="color" id="bgColor">
+                <input type="color" id="textColor">
+            </section>
+        </fieldset>
+        <fieldset class="h_fieldset">
+            <legend>h</legend>
+            <section class="h_section">
+                <input type="text" id="wordInput">
+                <button id="addBtn">Pridėti</button>
+                <ol id="list"></ol>
+            </section>
+        </fieldset>
+
+        <script src="./martynasbaras-rgb/app.js"></script>
+        <!-- /////////////////////////////////////////////////////////////////////////// -->
+        <fieldset class="i_fieldset">
+            <legend>i</legend>
+            <section class="i_section">
+                <div class="i_TrysKvadratai">
+                    <div class="i_TrysKvadratai1 i_flex">
+                        <div class="i_TrysKvadratai2  i_flex">
+                            <div class="i_TrysKvadratai3  i_flex"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="i_Spalva"></div>
-        </section>
+                <div class="i_Spalva"></div>
+            </section>
+        </fieldset>
 
-        <section class="j_section">
-            <div class="j_setionsLeft">
-                <label for="j_Label">Color:</label>
-                <input type="color" id="j_Picker" value="#555555">
-            </div>
-            <div class="j_colorDiv"></div>
+        <fieldset class="j_fieldset">
+            <legend>j</legend>
+            <section class="j_section">
+                <div class="j_setionsLeft">
+                    <label for="j_Picker">Color:</label>
+                    <input type="color" id="j_Picker" value="#555555">
+                </div>
+                <div class="j_colorDiv">Pasirinkite spalvą</div>
 
-        </section>
+            </section>
+        </fieldset>
 
         <script src="./coffee-terminal/app.js"></script>
         <!-- /////////////////////////////////////////////////////////////////////////// -->
