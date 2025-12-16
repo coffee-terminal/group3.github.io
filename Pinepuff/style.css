@@ -18,7 +18,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #a6bfdd;
+    /* background-color: #a6bfdd; */
+    background-color: #F9A89C;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -31,7 +32,7 @@
     display: block;
     padding: 12px 24px;
     border-radius: 50px;
-    background-color: #a6bfdd;
+    background-color: #F9A89C;
     border: none;
     outline: none;
     color: #ffffff;
@@ -85,9 +86,9 @@
 
 #d_values {
     box-sizing: border-box;
-    border: 1px solid #a6bfdd;
+    border: 1px solid #F9A89C;
     border-radius: 50px;
-    color: #a6bfdd;
+    color: #F9A89C;
     display: inline-flex;
     padding: 12px 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
