@@ -1,0 +1,22 @@
+.e_input1, .e_input2 {
+background-color: rosybrown;
+border-radius: 20px;
+border: 2px solid rosybrown;
+padding: 10px 20px;
+font-size: 18px;
+    font-weight: 500;
+    color: bisque;
+}
+
+.e_suma {
+   box-sizing: border-box;
+    border: 2px solid rosybrown;
+    border-radius: 20px;
+    color: bisque;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 270px;
+}
+
+
