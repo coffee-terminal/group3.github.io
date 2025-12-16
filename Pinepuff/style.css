@@ -38,9 +38,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-weight: 300;
-    box-shadow:
+    /* box-shadow:
         5px 5px 15px rgba(0, 0, 0, 0.1),
-        -5px -5px 15px rgba(255, 255, 255, 0.7);
+        -5px -5px 15px rgba(255, 255, 255, 0.7); */
 }
 
 .d_Inputas::-webkit-input-placeholder {
