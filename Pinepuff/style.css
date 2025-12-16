@@ -28,7 +28,7 @@
 
 .d_Inputas {
     box-sizing: border-box;
-    display: inline-flex;
+    display: block;
     padding: 12px 24px;
     border-radius: 50px;
     background-color: #a6bfdd;
@@ -39,9 +39,6 @@
     font-size: 18px;
     font-weight: 300;
     text-align: center;
-    /* box-shadow:
-        5px 5px 15px rgba(0, 0, 0, 0.1),
-        -5px -5px 15px rgba(255, 255, 255, 0.7); */
 }
 
 .d_Inputas::-webkit-input-placeholder {
